@@ -1,0 +1,5 @@
+Maio - Julho/2023
+- Experimentos de layouts, primeiros designs, pesquisa e documentação.
+- Feito alguns prototipos das páginas em HTML/CSS/Javascript e em Angular
+29/ago/2023
+- Criado página de serviços e iniciado a migração dos templates que já possuia em Angular para o projeto.
