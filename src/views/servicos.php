@@ -32,15 +32,41 @@
 
 <body>
     <header class="header">
-        <h2 class="header__title">Seja bem vindo, visitante!</h2>
         <img src="../img/logo.jpg" alt="">
+        <h2 class="header__title">Seja bem vindo, visitante!</h2>
     </header>
     <div class="container-servicos">
-
+        <aside class="aside">Lateral</aside>
         <main class="main">
             <h3>O que deseja hoje?</h3>
             <section class="main__servicos">
-                <app-card titleCard="Trocar lampada" description="Serviço realizado por um voluntário para troca de lampada" />
+                <div class="main__servicos__card">
+                    <div class="card__text">
+                        <h4>Trocar lampada</h4>
+                        <p>Serviço realizado por um voluntário para troca de lampada</p>
+                    </div>
+                    <div class="card__button">
+                        <a href="#">Selecionar</a>
+                    </div>
+                </div>
+                <div class="main__servicos__card">
+                    <div class="card__text">
+                        <h4>Bate papo</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci consectetur autem distinctio eveniet beata</p>
+                    </div>
+                    <div class="card__button">
+                        <a href="#">Selecionar</a>
+                    </div>
+                </div>
+                <div class="main__servicos__card">
+                    <div class="card__text">
+                        <h4>Passeio com animais</h4>
+                        <p>Lorem ipsum</p>
+                    </div>
+                    <div class="card__button">
+                        <a href="#">Selecionar</a>
+                    </div>
+                </div>
             </section>
         </main>
     </div>
